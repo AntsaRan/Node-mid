@@ -1,6 +1,16 @@
 - point d'entrée de l'application: index.js
-- installation des dépendances : npm install
-- lancer l'application: npm start / node index.js
+- installation des dépendances :
+```bash
+ npm install
+```
+- lancer l'application:
+```bash
+npm start
+```
+OU
+```bash
+node index.js
+```
 
 # LOGIN ADMIN:
 
@@ -93,9 +103,16 @@ Utiliser la méthode GET
 http://localhost:8000/employee/getAllChecks
 
 # TESTING: 
-Lancer la commande "npm test" dans le terminal. Les tests utilisent une base de données de test et un token spécifique.
+Lancer la commande 
+```bash
+npm test
+```
+dans le terminal. Les tests utilisent une base de données de test et un token spécifique.
 
 # DOCKER
 
 #### Pour récupérer l'image du projet docker:
-docker pull antsavr/node_mid
+
+```bash
+ docker pull antsavr/node_mid
+```
