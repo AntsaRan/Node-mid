@@ -12,10 +12,10 @@ http://localhost:8000/admin/login
 Utiliser x-www-form-urlencoded et fournir les informations suivantes:
 email, password
 
-email
+email:
 toto@gmail.com
 
-password
+password:
 rootroot
 
 Après connexion, vous recevrez un token qui vous servira à appeler les autres requêtes à savoir:
@@ -94,3 +94,8 @@ http://localhost:8000/employee/getAllChecks
 
 # TESTING: 
 Lancer la commande "npm test" dans le terminal. Les tests utilisent une base de données de test et un token spécifique.
+
+# DOCKER
+
+#### Pour récupérer l'image du projet docker:
+docker pull antsavr/node_mid
